@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 15px));
+  gap: 10px;
+}
+
+.card-container {
+  display: flex;
+  margin: 0 auto; 
+  padding: 20px;
+  background-color: #12969b; 
+  box-shadow: 0 2px 4px rgba(29, 175, 156, 0.6); 
+  border-radius: 8px; 
+ 
+}
+.card-container img {
+  margin: 15px; 
+  width: 100px;
+}
